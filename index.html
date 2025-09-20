@@ -1035,9 +1035,9 @@ input, textarea, select {
         <div class="payment-select-wrapper" style="position: relative;">
             <select id="paymentMethod" class="form-control" required style="padding: 0.8rem 1rem; background: white; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 8px; appearance: none; width: 100%; color: var(--mlbb-light); font-size: 0.9rem;">
                 <option value="" selected disabled>ငွေလွှဲနည်းလမ်း ရွေးပါ</option>
-                <option value="wave1">WavePay - 09671835815 (9 AM - 12 PM)</option>
+                <option value="wave1">WavePay - 09671835815 (8 AM - 12 PM)</option>
     
-                <option value="kpay">KPay - 09687102558 (9 AM - 12 PM)</option>
+                <option value="kpay">KPay - 09687102558 (8 AM - 12 PM)</option>
             </select>
             <div class="select-arrow" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--mlbb-primary);">
                 <i class="fas fa-chevron-down"></i>
@@ -1230,7 +1230,7 @@ const firebaseConfig = {
 
       
 
-const TELEGRAM_BOT_TOKEN = '8009067415:AAE4C1iMg9L32bAkkF_oBTEKOGAgBORQaNs';
+const TELEGRAM_BOT_TOKEN = '8094270595:AAERziCUrOYf38DMOSReu1oOSEf2LLG_qS0';
 const TELEGRAM_GROUP_ID = '@shadowu8766646';
 let currentGame = 'mlbb';
 
@@ -1605,14 +1605,14 @@ document.getElementById('paymentMethod').addEventListener('change', function() {
                 methodName = 'WavePay';
                 accountNumber = '09671835815';
                 accountHolder = 'Aye Chan Maung';
-                processingTime = 'နံနက် 9 AM မှ ည 12 PM ထိအားသည်';
+                processingTime = 'နံနက် 8 AM မှ ည 12 PM ထိအားသည်';
                 break;
             
             case 'kpay':
                 methodName = 'KPay';
                 accountNumber = '09687102558';
                 accountHolder = 'Ko Ko Kyaw';
-                processingTime = 'နံနက် 9 AM မှ ည 12 PM ထိအားသည်';
+                processingTime = 'နံနက် 8 AM မှ ည 12 PM ထိအားသည်';
                 break;
         }
         
